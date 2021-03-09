@@ -77,7 +77,7 @@ class Shaundoku(private val clues: String) : PApplet() {
     }
 }
 
-fun main() {
+fun main(args: Array<String>) {
 
     // hardcoded till a better mechanism is found
     val input = "535070000600195000098000060800060003400803001700020006060000280000419005000080079"

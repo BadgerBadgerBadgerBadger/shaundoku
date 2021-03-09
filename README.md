@@ -1,9 +1,7 @@
 # Shaundoku
 
-## Play
+## Instructions
 
-Built jars can be downloaded and played. Different jars use different board models, but all render the same output and use the same inputs.
-
-## Design Considerations
-
-- Board representation has been abstracted from board rendering, allowing changing the rendering parameters
+- UP, RIGHT, DOWN, LEFT moves around the board.
+- ENTER selects cell for editing and sets candidate from InputBar.
+- BACKSPACE switches back from InputBar to board.
