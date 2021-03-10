@@ -1,3 +1,11 @@
+package shaundoku
+
+import Board
+import BoardRenderer
+import CellColors
+import Color
+import InputBar
+import TwoDGridBoard
 import processing.core.PApplet
 
 // TODO: Are non-primitive constants possible?
@@ -77,7 +85,7 @@ class Shaundoku(private val clues: String) : PApplet() {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
 
     // hardcoded till a better mechanism is found
     val input = "535070000600195000098000060800060003400803001700020006060000280000419005000080079"

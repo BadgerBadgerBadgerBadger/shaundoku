@@ -59,7 +59,7 @@ class InputBar {
                 cellColors.background.third,
             )
             drawer.strokeWeight(strokeWeight)
-            drawer.square(xPos, yPos, cellSize)
+            drawer.rect(xPos, yPos, cellSize, cellSize)
 
             if (candidate == Candidate.ZERO) {
                 continue

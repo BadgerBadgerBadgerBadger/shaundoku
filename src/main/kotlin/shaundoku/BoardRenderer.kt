@@ -43,7 +43,7 @@ class BoardRenderer(
                 backgroundColor.third
             )
             drawer.strokeWeight(strokeWeight)
-            drawer.square(xPos, yPos, cellSize)
+            drawer.rect(xPos, yPos, cellSize, cellSize)
 
             // we don't display empty cell contents
             if (cell.isEmpty) {
